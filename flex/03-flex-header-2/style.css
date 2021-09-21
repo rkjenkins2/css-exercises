@@ -12,6 +12,18 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.left-header,
+.right-header {
+  display: flex;
+  /* border: solid red 4px; */
+  gap: 8px;
+  align-items: center;
 }
 
 .profile-image {
@@ -27,6 +39,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  /* border: blue solid 3px; */
 }
 
 button {
@@ -45,4 +58,10 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  /* border: 3px solid rgb(30, 255, 0); */
+  gap: 16px;
+  /* here again is where I missed it */
+  margin: 0;
+  padding: 0;
 }
